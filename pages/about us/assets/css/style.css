@@ -42,43 +42,36 @@ nav ul li a:hover {
     color:#9e8764;
     text-decoration: none;
 }
-.main-cover{
-    position: relative;
+.header-about {
     color:#6a5c57;
-    padding: 50px 20px;
-    background-color: #f0f1f3;
-    position:relative;
+    padding: 50px 0;
     text-align: center;
+    margin-bottom: 50px;
 }
-.main-cover-text {
-    max-width: 700px;
-    margin: 0 auto;
-    margin-top: -20px;
+.header-about h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.header-about p {
+    font-size: 1.2rem;
     margin-bottom: 10px;
 }
-.main-cover p {
-    font-size: 1.4em;
-    margin-bottom: 30px;
+.about-cont {
+    text-align: center;
+    margin-bottom: 50px;
 }
-.main-cover .btn {
-    padding:20px 40px;
-    background-color: #6a5c57;
-    color:#e3cdba;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 50px;
-    font-size: 1.4em;
-    letter-spacing: 1px;
-    position: absolute;
-    bottom: 80px;
-    left: 45%;
-    transform: translateX(-50);
-    transition: background-color 0.3s ease, transform 0.3s ease;
+.about-cont h2 {
+    font-size: 2.5rem;
+    color: #6a5c57;
+    margin-bottom: 20px;
 }
-.main-cover .btn:hover{
-    background-color: #9e8764;
-    color:#f0ebd2;
-    transform: scale(1.05);
+.about-cont p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .sociallinks {
     text-align: center;
@@ -104,10 +97,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-@media (max-width: 768px) {
-    .main-cover h2 {font-size: 2.5em;}
-    .main-cover p {font-size: 1.2em;}
-    .main-cover .btn {font-size: 1.2em; padding:15px 30px;}
+    background-color: #f0ebd2;
+    color: #6a5c57;
+    text-decoration: none;
 }

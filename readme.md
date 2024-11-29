@@ -4,16 +4,16 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/fabular-rhm">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/belchic logo.png" alt="Belchic-LilyBlack" width="160" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Belchic-LilyBlack</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Belchic-LilyBlack is a clothing company where both brands are available for purchase at the same time!
 </div>
 
 <br />
@@ -62,23 +62,21 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- The project is about creating a "minimalistic" type of website together with the product itself, where French Styled Autumn Outfit Collection are in the Clothing Company.
+- The purpose of this website is to fit the standard for all the clothing store websites and learn about the other clothing such as merging Japan and French outfit styles together. 
+- Multipage Website and not sure about Parallax Transition and transactional.
+- HTML for coding the design & CSS for designing the website. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+[HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+[CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -119,4 +117,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| WD-Template Project | The template used for this project | https://github.com/zyx-0314
+| Add to cart/wishlist | for button-like add to cart/wishlist on the product page | https://codepen.io/Onejohi/pen/MvRPYM |
+| Contact Form |Used for responsive contact form | https://codepen.io/Zue-Ghazali/pen/ZYzERBK |
+| Bootstrap | Guide for using bootstrap | https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp |
+| Product Card | Guide for product main page | https://codepen.io/ksu/pen/PoYxVWq |

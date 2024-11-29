@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img src="./assets/img/belchic logo.png" alt="Belchic-LilyBlack" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="../../index.html">Home</a> </li>
+                <li> <a href="../products/index.html">Products</a> </li>
+                <li> <a href="./index.html"><u>Contact</u></a></li>
+                <li> <a href="../../pages/about us/index.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <div class="ContactUsna">
+        <h1>Contact Us</h1>
+    <p><b> Please refer to "Frequently Asked Questions" before contacting us. </b></p>
+    <p><h3>Frequently Asked Questions</h3></p>
+    <ul>
+         <li>If you still cannot find a solution, please contact us with your order number.</li>
+         <li>If you are not sure, please provide us with your name and address, which identifies you as the person who placed the order.</li>
+         <li>When contacting us, it would be very helpful if you provide us with the e-mail address you used when you placed your order with Belchic, so that we can easily confirm your identity.</li>
+         <Ii>If you have any other questions about our products, please contact us.</Ii>
+         <br>        
+         We will reply to you within 1-4 days, not including Saturdays, Sundays, and holidays.</ul></div>
+    <div class="container">
+        <div class="contact-form">
+            <h2 class="text-center">Contact Us</h2>
+            <form id="contact-form"method="POST"action="">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="name" name="name"required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Your Message</label>
+                    <textarea class="form-control" id="comment" name="comment" rows="4" placeholder="Enter your message..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Powered by Shopify • <a href="https://belchic.shop/en-world/policies/refund-policy">Refund Policy</a> • <a href="https://belchic.shop/en-world/policies/privacy-policy">Privacy Policy</a> • <a href="https://belchic.shop/en-world/policies/terms-of-service">Terms of Service</a> • <a href="https://belchic.shop/en-world/policies/shipping-policy">Shipping Policy</a> • <a href="https://belchic.shop/en-world/policies/legal-notice">Legal Notice</a></p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            document.getElementById('contact-form').reset();
+        });
+    </script>
+</body>
+</html>
