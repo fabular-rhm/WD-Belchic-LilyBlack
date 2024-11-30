@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    margin:0;
+    margin:20px;
     padding:0;
     box-sizing: border-box;
     color: #6a5c57;
@@ -25,7 +25,7 @@ header{
 .back-button {
     text-decoration: none;
     margin-top: -70px;
-    margin-left: 30px;
+    margin-left: 12px;
     font-size: 15px;
     padding: 8px 24px;
     background-color: transparent;
@@ -150,14 +150,16 @@ header{
     width: 100%;
     object-fit: contain;
 }
+
+.product-slider {
+    margin-top: 20px;
+    text-align: center;
+}
 .rowww {
     display: flex;
     margin-top: 30px;
     margin-bottom: 40px;
-}
-.product-slider {
-    margin-top: 20px;
-    text-align: center;
+    margin-inline: -10px;
 }
 
 .similar-items {
@@ -165,7 +167,7 @@ header{
 }
 
 .similar-items img {
-    width: 90%;
+    width: 100%;
     height: auto;
     border-radius: 15px;
     transition: transform 0.3s ease, z-index 0.3s ease;
